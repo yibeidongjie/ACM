@@ -2,43 +2,60 @@
 #include <stdlib.h>
 #include <string.h>
 
+#define LengthMAX 100000
 
-static void todo();
+/* ==== 全局变量 ==== */
+int SG_Value = 0;
 
-static void acmTest();
-static void myTest();
+/* ==== 函数声明 ==== */
+static void ToDo();
 
+static void AcmTest();
+static void MyTest();
+
+/* ==== 函数 ==== */
 int main(int argc, char *agrv[])
 {			
-	acmTest();
+	AcmTest();
 	
-	//myTest();
+	//MyTest();
 	
 	return 0;
 }
 
-static void myTest()
+static void MyTest()
 {
 	int i;
 	
 	return ;
 }
 
-static void acmTest()
+static void AcmTest()
 {
 	int i = 0;
 	
-	scanf("%d", &);
+	int NumCase = 0, iCase = 0;
+	
+	
+	scanf("%d", &NumCase);
+	
 	
 	while( scanf("", &) != EOF ) {
+		iCase++;
 		
+		
+		
+		
+		
+		
+		if(iCase < NumCase) { printf("\n"); }
 	}
 	
 	return ;
 }
 
 
-static void todo()
+static void ToDo()
 {	
 	int i = 0;
 	
